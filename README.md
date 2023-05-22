@@ -40,7 +40,7 @@ $r_{re} = exp(-(f(i) - f(j))(\frac{1}{T_{i}} - \frac{1}{T_{j}}))$
 
 ### Metropolis Hastings (Boltzmann) Crossover Criterion
 
-Select $i_{1}, i_{2}, j_{1}, j_{2}$ such that $f(i_{2} > f(i_{1})$ and $f(j_{2}) > f(j_{1})$.
+Select $i_{1}, i_{2}, j_{1}, j_{2}$ such that $f(i_{1} \geq f(j_{1})$ and $f(i_{2}) \geq f(j_{2})$.
 
 $P$(states $i_{1}$ and $j_{1}$ to $i_{2}$ and $j_{2}$ at $T_{i}$ and $T_{j}$) = $min(1, r_{c})$
 
